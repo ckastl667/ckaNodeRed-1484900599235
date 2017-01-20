@@ -1,0 +1,16 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ckaNodeRed
+  host: ckaNodeRed
+  disk_quota: 1024M
+  services:
+  - ckaNodeRed-cloudantNoSQLDB
+  - Speech to Text-sa
+  - Speech to Text-xc
+  - Tone Analyzer-ly
+  - Language Translator-sc
+  - Conversation-7y
+  - Language Translator-rv
